@@ -14,7 +14,7 @@ public class CollertorControllor {
 
 
     /**
-     *
+     *aaaa
      * @param colletor_id
      * @return Result
      * 删除购物车的商品
