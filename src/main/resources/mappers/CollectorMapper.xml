@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.orange.ssm.mapper.CollectorMapper">
+  <resultMap id="BaseResultMap" type="com.orange.ssm.entity.Collector">
+    <!--@mbg.generated-->
+    <id column="colletor_id" jdbcType="INTEGER" property="colletorId" />
+    <result column="commodoity_name" jdbcType="VARCHAR" property="commodoityName" />
+    <result column="price" jdbcType="DOUBLE" property="price" />
+    <result column="describe" jdbcType="VARCHAR" property="describe" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    colletor_id, commodoity_name, price, `describe`
+  </sql>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <!--@mbg.generated-->
+    delete from collector
+    where colletor_id = #{colletorId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insertSelective" keyColumn="colletor_id" keyProperty="colletorId" parameterType="com.orange.ssm.entity.Collector" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into collector
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="commodoityName != null">
+        commodoity_name,
+      </if>
+      <if test="price != null">
+        price,
+      </if>
+      <if test="describe != null">
+        `describe`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="commodoityName != null">
+        #{commodoityName,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        #{price,jdbcType=DOUBLE},
+      </if>
+      <if test="describe != null">
+        #{describe,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+</mapper>

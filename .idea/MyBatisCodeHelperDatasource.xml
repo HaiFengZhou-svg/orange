@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="lastUsedTestConfiguration">
+      <TestConfiguration>
+        <option name="driverClass" value="com.mysql.cj.jdbc.Driver" />
+        <option name="from" value="history" />
+        <option name="intellij" value="false" />
+        <option name="order" value="-1" />
+        <option name="password" value="root" />
+        <option name="url" value="jdbc:mysql://localhost:3306/lala?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai" />
+        <option name="userName" value="root" />
+      </TestConfiguration>
+    </option>
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="genSqlFilePath" value="$PROJECT_DIR$/src/main/java/com/orange/ssm/entity" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="generatedClassPathList">
+          <list>
+            <option value="$PROJECT_DIR$/src/main/java/com/orange/ssm/entity" />
+          </list>
+        </option>
+        <option name="insertMethodEnabled" value="false" />
+        <option name="javaMapperPackage" value="com.orange.ssm.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="javaModelPackage" value="com.orange.ssm.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="orange" />
+        <option name="mapperAnnotaion" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="orange">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.orange.ssm.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaModelPacakge" value="com.orange.ssm.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.orange.ssm.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaServicePackage" value="com.orange.ssm.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="xmlPackage" value="mappers" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="selectByPrimaryKeyEnabled" value="false" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="commodity:collector">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="colletor_id" />
+                  <option name="insertMethodEnabled" value="false" />
+                  <option name="javaModelName" value="Collector" />
+                  <option name="moduleName" value="orange" />
+                  <option name="selectByPrimaryKeyEnabled" value="false" />
+                  <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+                  <option name="updateByPrimaykeyEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="commodity:commodity">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="commodityId" />
+                  <option name="javaModelName" value="Commodity" />
+                  <option name="moduleName" value="orange" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+        <option name="updateByPrimaykeyEnabled" value="false" />
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="mappers" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/src/main/resources" />
+      </ProjectProfile>
+    </option>
+    <option name="testConfigurations">
+      <list>
+        <TestConfiguration>
+          <option name="driverClass" value="com.mysql.cj.jdbc.Driver" />
+          <option name="from" value="history" />
+          <option name="intellij" value="false" />
+          <option name="order" value="-1" />
+          <option name="password" value="root" />
+          <option name="url" value="jdbc:mysql://localhost:3306/lala?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai" />
+          <option name="userName" value="root" />
+        </TestConfiguration>
+      </list>
+    </option>
+  </component>
+</project>
